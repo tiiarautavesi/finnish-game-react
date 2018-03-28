@@ -1,22 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster');
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 6vw;
+}
+
+h1{
+  font-family: 'Lobster', cursive;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   width: 7vw;
+  margin-top: 0.5vw;
 }
 
 .App-header {
   background-color: #A5E8EF;
   height: auto;
-  padding: 2vw;
   color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
 }
 
 .App-intro {
   font-size: large;
+}
+
+.categoriesSelection {
+  position: absolute;
+  top: 3vw;
+  left: 4vw;
+  width: 27vw;
+  height: 5vw;
+  font-size: 2.5vw;
+  cursor: pointer;
+}
+
+button {
+  position: absolute;
+  font-weight: bold;
+  top: 3vw;
+  right: 5vw;
+  width: 5vw;
+  height: 5vw;
+  line-height: 4vw;
+  border-radius: 0.5vw;
+  font-size: 2.5vw;
+  background-color: black;
+  color: #A5E8EF;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 0.9vw black;
+}
+
+.btn {
+  font-size: 4vw;
+  background: yellow;
+  padding: 1vw;
+  width: 16vw;
+  margin: auto;
+  cursor: pointer;
+  border-radius: 1vw;
+}
+
+.btn:hover {
+  box-shadow: 0 0 0.9vw black;
+}
+
+.icon:after {
+  content: '\f110';
 }
